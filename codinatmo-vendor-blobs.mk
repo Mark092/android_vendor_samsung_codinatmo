@@ -56,9 +56,11 @@ PRODUCT_COPY_FILES += \
 # Wifi
 PRODUCT_COPY_FILES += \
     vendor/samsung/codinatmo/proprietary/etc/wifi/bcmdhd_apsta.bin_b2:system/etc/wifi/bcmdhd_apsta.bin_b2 \
+    vendor/samsung/codinatmo/proprietary/etc/wifi/bcmdhd_mfg.bin_b2:system/etc/wifi/bcmdhd_mfg.bin_b2 \
     vendor/samsung/codinatmo/proprietary/etc/wifi/bcmdhd_p2p.bin_b2:system/etc/wifi/bcmdhd_p2p.bin_b2 \
     vendor/samsung/codinatmo/proprietary/etc/wifi/bcmdhd_sta.bin_b2:system/etc/wifi/bcmdhd_sta.bin_b2 \
-    vendor/samsung/codinatmo/proprietary/etc/wifi/nvram_net.txt_GPIO4:system/etc/wifi/nvram_net.txt_GPIO4
+    vendor/samsung/codinatmo/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
+    vendor/samsung/codinatmo/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt
 
 # Display
 PRODUCT_COPY_FILES += \
