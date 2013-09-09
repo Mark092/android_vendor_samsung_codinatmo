@@ -66,7 +66,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/codinatmo/proprietary/lib/hw/hwcomposer.montblanc.so:system/lib/hw/hwcomposer.montblanc.so \
     vendor/samsung/codinatmo/proprietary/lib/hw/gralloc.montblanc.so:system/lib/hw/gralloc.montblanc.so \
-    vendor/samsung/codinatmo/proprietary/lib/hw/copybit.montblanc.so:system/lib/hw/copybit.montblanc.so
+    vendor/samsung/codinatmo/proprietary/lib/hw/copybit.montblanc.so:system/lib/hw/copybit.montblanc.so \
+    vendor/samsung/codinatmo/proprietary/lib/hw/lights.montblanc.so:system/lib/hw/lights.montblanc.so
 
 # GPS
 PRODUCT_COPY_FILES += \
